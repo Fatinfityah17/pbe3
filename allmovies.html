@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="allmovies.css">
+	<title></title>
+</head>
+
+<body>
+	<header>
+		<div class="center">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT US</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+				<li><a href="allmovies.html">ALL MOVIES</a></li>
+
+			</ul>
+		</div>
+	</header>
+
+	<div class="search">
+		<h4>Search Movies</h4>
+		<form>
+			<br>
+			<h3>Choose Language:</h3><br>
+			<form name="myLang">
+
+				<input type="checkbox" name="language" value="English" checked>English
+				<input type="checkbox" name="language" value="Filipino" checked>Filipino
+				<input type="checkbox" name="language" value="Japan" checked>Japan
+				<input type="checkbox" name="language" value="Thailand" checked>Thailand
+				<input type="checkbox" name="language" value="Korean" checked>Korean
+
+			</form>
+			<script>
+				function makeSelection() {
+	for (var i = 0; <documet.myLang.language.length; i++) {
+	if (document.myLang.language[i].checked) {
+	document.getElementById("1").innerHTML = "You've selected " + document.myLang.language[i].value;
+	}
+	}
+	}
+	</script>
+			<br>
+			<h3>What are You Waiting For?</h3>
+			<form name="myLang">
+				<input type="checkbox" name="language" value="English" checked><b>Rent Now!!</b><br>
+				<input type="checkbox" name="language" value="Korean" checked><b>Buy Now!!</b><br>
+				<input type="button" name="submit" value="submit" onclick="makeSelection()">
+			</form>
+
+			<div id="2"></div>
+			<script>
+				function makeSelection() {
+					for (var i = 0; i < document.myLanguage[i].checked) {
+						if (document.getElementById("2").innerHTML = "You've selected " = document.myLang.language[i].value;
+						}
+					}
+				}
+
+			</script>
+
+
+</body>
+
+</html>

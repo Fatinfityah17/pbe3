@@ -1,0 +1,101 @@
+body {
+	background-color: burlywood;
+	color: black;
+	font color: black;
+	font-family: 'Bitter', serif;
+	
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	list-style: 
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+ul li {
+    list-style: inherit;
+    border: 4px solid #048365;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 60px;
+    border-radius: 95px;
+    font-family: arial;
+
+}
+ul li a {
+    text-decoration: none;
+    padding: 15px 35 px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+}
+ul li: nth-child(1) a{
+    color: white;
+    border: 2px solid white;
+    
+}ul li: nth-child(2) a{
+    color: white;
+    border: 2px solid white;
+    
+}
+ul li: nth-child(3) a{
+    color: white;
+    border: 2px solid rgba(255, 252, 252, 0.6);
+    
+}
+ul li:nth-child(1):hover a{
+    box-shadow: 0px 0px 10px rgba(255,30,50,0.5), 0px 0px 10px rgba(255,30,50,1);
+    background-color: rgba(4, 131, 101, 0.58);
+}
+ul li:nth-child(2):hover a{
+    box-shadow: 0px 0px 10px rgba(255,30,50,0.5), 0px 0px 10px rgba(255,30,50,1);
+    background-color: rgba(4, 131, 101, 0.58);
+}
+ul li:nth-child(3):hover a{
+    box-shadow: 0px 0px 10px rgba(255,30,50,0.5), 0px 0px 10px rgba(255,30,50,1);
+    background-color: rgba(4, 131, 101, 0.58);
+}
+
+#text {
+	color: black;
+	font color: black;
+	font-family: 'Bitter', serif;
+}
+#text1 {
+	color: black;
+	font color: black;
+	font-family: 'Bitter', serif;
+}
+#text2 {
+	color: black;
+	font color: black;
+	font-family: 'Bitter', serif;
+}
+#link {
+		color: black;
+	font color: black;
+	font-family: 'Bitter', serif;
+}
+#text3 {
+	color: black;
+	font color: black;
+	font-family: 'Bitter', serif;
+}
+#text3 {
+	color: black;
+	font color: black;
+	font-family: 'Bitter', serif;
+}
+#movie .table .tr{
+	width: 200px;
+	height: 200px;
+}
+#login {
+	color: black;
+	font color: black;
+	font-family: 'Bitter', serif;
+}
